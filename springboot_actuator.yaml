@@ -1,0 +1,8 @@
+init_config:
+
+instances:
+  # Spring Boot Actuator
+  # http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#production-ready-metrics
+  - metrics_url: http://localhost:8080/management/metrics
+  #   tags:
+  #     - application:your_cool_application
