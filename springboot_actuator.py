@@ -18,6 +18,7 @@ class SpringbootActuator(AgentCheck):
         (r"processors", GAUGE),
         (r"mem\.?", GAUGE),
         (r"heap\.?", GAUGE),
+        (r"nonheap\.?", GAUGE),
         (r"gc\.", RATE),
         (r"threads\.?", GAUGE),
         (r"classes\.", RATE),
